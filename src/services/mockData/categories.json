@@ -1,0 +1,42 @@
+[
+  {
+    "id": "personal",
+    "name": "Personal",
+    "color": "#4ECDC4",
+    "icon": "User",
+    "taskCount": 4,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "work",
+    "name": "Work",
+    "color": "#5B4FE5",
+    "icon": "Briefcase",
+    "taskCount": 3,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "shopping",
+    "name": "Shopping",
+    "color": "#FF6B6B",
+    "icon": "ShoppingCart",
+    "taskCount": 2,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "learning",
+    "name": "Learning",
+    "color": "#FFE66D",
+    "icon": "BookOpen",
+    "taskCount": 1,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "health",
+    "name": "Health & Fitness",
+    "color": "#4E9FE5",
+    "icon": "Heart",
+    "taskCount": 0,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  }
+]
