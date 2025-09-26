@@ -28,6 +28,25 @@ const Header = ({ onSearch, onQuickAdd, title = "TaskFlow" }) => {
             <ApperIcon name="Plus" size={18} />
             <span className="hidden sm:inline">Quick Add</span>
           </Button>
+<Button
+            variant="outline"
+            size="sm"
+            onClick={() => {
+              const { AuthContext } = window
+              if (AuthContext?.logout) {
+                AuthContext.logout()
+              } else {
+                // Fallback logout
+                const { ApperUI } = window.ApperSDK
+                ApperUI.logout()
+                window.location.href = '/login'
+              }
+            }}
+            className="ml-4"
+          >
+            <ApperIcon name="LogOut" size={16} className="mr-2" />
+            Logout
+          </Button>
         </div>
       </div>
     </header>
